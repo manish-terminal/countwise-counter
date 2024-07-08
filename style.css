@@ -1,0 +1,37 @@
+body {
+    background-image: url(./bg.avif);
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+
+    text-align: center;
+}
+
+h2 {
+    margin-top: 50px; /* Adjust as needed */
+    color: black;
+}
+
+.button {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#buttoncontainer {
+    margin-top: 20px;
+}
+
+#counter {
+    font-size: 5em;
+    color: black;
+}
+.button:hover{
+    transform: scale(1.2);
+    border: 2px solid gold;
+}
